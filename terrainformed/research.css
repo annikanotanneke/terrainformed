@@ -1,0 +1,113 @@
+/* NOTE: need to get all the spacing to match*/
+
+/*structural styles*/
+body {
+    background-color: #050514;
+}
+
+.float-container {
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
+
+/*nav*/
+
+.navscroll {
+    position: fixed;
+}
+
+nav li {
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration-line: underline;
+}
+
+nav li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*additional nav styling*/
+
+nav ul {
+    list-style-type: none;
+}
+
+/*remove later, just for ease rn */
+
+nav ul li a {
+    padding: .5em;
+   /* margin: .5em;*/
+}
+
+/*add animation
+
+nav li a:hover {} */
+
+/*directory styling*/
+
+.directory {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 50%;
+    padding: 1.5em;
+}
+
+/*move directory to the center*/
+
+.directory li {
+    list-style-type: none;
+}
+
+/*add imgs to the side of each link?*/
+
+.directory li a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.directory li a:hover {
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+.directory li a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*footer styling*/
+
+footer {
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+    padding-left: 3.25em;
+    position: fixed;
+    margin-top: 15px;
+    bottom: 0;
+}
+
+footer a:link {
+    color: #ffffff;
+}
+
+footer a:hover {
+    font-weight:bolder;
+}
+/*responsitivity is glitched*/
+
+footer a:visited {
+    color: #ffffff;
+}

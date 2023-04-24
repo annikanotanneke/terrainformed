@@ -1,0 +1,68 @@
+/*structural styles*/
+body {
+    background-color: #050514;
+}
+
+/*text styles*/
+
+h1, h2, h3, p, li {
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+nav li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration-line: underline;
+}
+
+nav li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*additional nav styling*/
+
+nav ul {
+    list-style-type: none;
+}
+
+/*remove later, just for ease rn */
+
+nav ul li a {
+    padding: .5em;
+    margin: .5em;
+    font-size: 2rem;
+}
+
+/*add animation
+
+nav li a:hover {} */
+
+.error {
+    display: flex;
+    justify-content: center;
+}
+
+.error img {
+    position: absolute;
+    opacity: 1;
+  /*  transition: all .25s ease-in; transition necessary?*/
+}
+
+.error img:hover {
+    opacity: 0;
+}
+
+
+.errorreveal {
+    display: flex;
+    justify-content: center;
+}
+
+.msg {
+    text-align: center;
+}

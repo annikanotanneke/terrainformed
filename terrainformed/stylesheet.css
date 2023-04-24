@@ -1,0 +1,113 @@
+/*structural styles*/
+body {
+    background-color: #050514;
+}
+
+.title {
+    padding: 1rem;
+}
+
+
+/*text styles*/
+
+h1, h2, h3, p, li {
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+nav li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration-line: underline;
+}
+
+nav li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*additional nav styling*/
+
+nav ul {
+    list-style-type: none;
+}
+
+/*remove later, just for ease rn */
+
+nav ul li a {
+    padding: .5em;
+    margin: .5em;
+}
+
+/*add animation
+
+nav li a:hover {} */
+
+/*object positioning*/
+
+.earthcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mooncontainer {
+    position: absolute;
+    left: 75%;
+    transform: translate(25%, 25%)
+} 
+
+/*object sizing*/
+
+.blue {
+    width: 650px;
+    height: 650px;
+    background: #3366cc;
+    border-radius: 50%;
+}
+
+.gray {
+    width: 175px;
+    height: 175px;
+    background: #d1d1e0;
+    border-radius: 50%;
+}
+
+.leoone {
+    width: 35px;
+    height: 70px;
+    background: #8686ac;
+    /*positioning*/
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    transform: rotate(-60deg);
+}
+
+.leotwo {
+    width: 35px;
+    height: 70px;
+    background: #8686ac;
+    /*positioning*/
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    transform: rotate(38deg);
+}
+
+.leothree {
+    width: 35px;
+    height: 70px;
+    background: #8686ac;
+    /*positioning*/
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    transform: rotate(-38deg);
+}
