@@ -59,24 +59,12 @@ nav li a:hover {} */
 /*leo styling*/
 
 .leo img {
-    width: 450px; 
+    width: 400px; 
     position: fixed;
-    padding-top: 5em;
+    padding-top: 7em;
     padding-left: 5em;
    /* transition: 0.2s; adds transition*/
 }
-
-/*
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("header").style.fontSize = "30px";
-  } else {
-    document.getElementById("header").style.fontSize = "90px";
-  }
-}
-*/
 
 /*div styling*/
 

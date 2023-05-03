@@ -1,23 +1,13 @@
 /* NOTE: need to get all the spacing to match*/
 
 /*structural styles*/
+
+img {
+    width: 50%;
+}
 body {
     background-color: #050514;
 }
-
-/*
-
-.float-container {
-    padding: 20px;
-}
-
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-}  
-
-*/
 
 /*nav*/
 
@@ -60,40 +50,52 @@ nav ul li a {
 
 nav li a:hover {} */
 
-/*directory styling*/
 
-.directory {
-    background-color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
-    max-width: 50%;
-    padding: 1.5em;
+/*div styling*/
+
+.container {
+    max-width: 60%;
+    font-family:'Courier New', Courier, monospace;
+    color: #000000;
+    background-color:#ffffff;
+    padding: 2em;
     margin: auto;
 }
 
-/*move directory to the center*/
 
-.directory li {
-    list-style-type: none;
-}
-
-/*add imgs to the side of each link?*/
-
-.directory li a:link {
+.container li a:link {
     color: #000000;
-    text-decoration: none;
+    word-wrap:break-word;
 }
 
-.directory li a:hover {
-    text-decoration-line: underline;
-    font-weight: bolder;
+.container li a:hover {
+    font-weight:bolder;
+    color:#000000;
 }
 
-.directory li a:visited {
+.container li a:visited {
     color: #000000;
-    text-decoration: none;
 }
 
-/*footer styling*/
+.container figure {
+    text-align: center;
+}
+
+
+/*
+
+.content {
+    background-color: #ffffff;
+    padding: 2em;
+}
+
+.bibliography {
+    background-color: #ffffff;
+    padding: 2em;
+}
+
+
+/*footer styling
 
 footer {
     font-family:'Courier New', Courier, monospace;
@@ -111,8 +113,10 @@ footer a:link {
 footer a:hover {
     font-weight:bolder;
 }
-/*responsitivity is glitched*/
+/*responsitivity is glitched 
 
 footer a:visited {
     color: #ffffff;
 }
+
+*/

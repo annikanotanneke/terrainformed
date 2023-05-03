@@ -5,15 +5,31 @@ body {
 
 .title {
     padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 
 /*text styles*/
 
-h1, h2, h3, p, li {
+h1, a {
     font-family:'Courier New', Courier, monospace;
     color: #ffffff;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration-line: underline;
+    font-weight: bolder;
+    color:#ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*
 
 nav li a:link {
     color: #ffffff;
@@ -29,34 +45,31 @@ nav li a:visited {
     text-decoration: none;
 }
 
-/*additional nav styling*/
-
 nav ul {
     list-style-type: none;
 }
 
-/*remove later, just for ease rn */
 
 nav ul li a {
     padding: .5em;
     margin: .5em;
 }
 
-/*add animation
+*/
 
-nav li a:hover {} */
 
 /*object positioning*/
 
 .earthcontainer {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .mooncontainer {
     position: absolute;
     left: 75%;
@@ -66,48 +79,83 @@ nav li a:hover {} */
 /*object sizing*/
 
 .blue {
-    width: 650px;
-    height: 650px;
+    width: 550px;
+    height: 550px;
     background: #3366cc;
     border-radius: 50%;
 }
 
 .gray {
-    width: 175px;
-    height: 175px;
+    width: 125px;
+    height: 125px;
     background: #d1d1e0;
     border-radius: 50%;
 }
 
+.who {
+    padding-top:2em;
+}
+
+/*leoone positioning*/
+
 .leoone {
-    width: 35px;
-    height: 70px;
-    background: #8686ac;
-    /*positioning*/
+    
     position: relative;
     left: 170px;
     bottom: 20px;
-    transform: rotate(-60deg);
+   /* transform: rotate(-60deg); */
 }
+
+.leoone img {
+    width: 160px;
+}
+
+/*leotwo positioning*/
 
 .leotwo {
-    width: 35px;
-    height: 70px;
-    background: #8686ac;
-    /*positioning*/
     position: relative;
-    left: 170px;
+    left: 500px;
     bottom: 20px;
-    transform: rotate(38deg);
+  /*  transform: rotate(38deg); */
 }
 
-.leothree {
-    width: 35px;
-    height: 70px;
-    background: #8686ac;
-    /*positioning*/
+.leotwo img {
+    width: 150px;
+}
+
+/*panel positioning*/
+
+.panel {
     position: relative;
     left: 170px;
     bottom: 20px;
-    transform: rotate(-38deg);
+}
+
+.panel img {
+    width: 140px;
+}
+
+/*leothree positioning*/
+
+.leothree {
+    position: relative;
+    left: 800px; 
+  /*  transform: translate(20px, 0px); */
+  /*  transform: rotate(-38deg); */
+}
+
+.leothree img {
+    width: 130px;
+}
+
+/*chunk positioning*/
+
+.chunk {
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+}
+
+.chunk img {
+    width: 140px;
 }
